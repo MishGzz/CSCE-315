@@ -1,0 +1,9 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+ToggleButton{
+	-fx-background-color:white;
+	-fx-border-color:black;
+}
+ToggleButton.pressed{
+	-fx-background-color:black;
+	-fx-border-color:black;
+}

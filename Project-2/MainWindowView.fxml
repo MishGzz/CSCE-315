@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainWindowController">
+   <children>
+      <ToggleButton layoutX="116.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="60.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="284.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="228.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="172.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="116.0" layoutY="70.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="284.0" layoutY="70.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="172.0" layoutY="70.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="60.0" layoutY="70.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="228.0" layoutY="70.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="228.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="116.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="116.0" layoutY="126.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="284.0" layoutY="126.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ToggleButton>
+      <ToggleButton layoutX="172.0" layoutY="126.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="60.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="60.0" layoutY="126.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="172.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="228.0" layoutY="126.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="284.0" layoutY="182.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="116.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="284.0" layoutY="294.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="60.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="284.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="284.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="116.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="228.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="228.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="228.0" layoutY="294.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="60.0" layoutY="294.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="172.0" layoutY="238.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="172.0" layoutY="294.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="172.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="60.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <ToggleButton layoutX="116.0" layoutY="294.0" mnemonicParsing="false" onAction="#handleButton" prefHeight="56.0" prefWidth="56.0" />
+      <TextArea fx:id="console" layoutX="24.0" layoutY="405.0" onMouseClicked="#processLetter" prefHeight="187.0" prefWidth="349.0" text="No letter detected" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="405.0" />
+   </children>
+</AnchorPane>
