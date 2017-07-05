@@ -1,0 +1,6 @@
+CoolRelation
+ComputerType SSD_Size Price
+MacBook 256 2000
+DellPrecision 500 600
+DellLatitude 512 1200
+Mac_Book_Air 256 1200
